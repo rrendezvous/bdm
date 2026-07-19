@@ -1,20 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cute birthday cat favicon">
-  <rect width="64" height="64" rx="16" fill="#fff8e8"/>
-  <circle cx="13" cy="13" r="5" fill="#ffd3bf"/>
-  <circle cx="52" cy="13" r="6" fill="#c9ebff"/>
-  <circle cx="51" cy="52" r="6" fill="#ddd1ff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cute Orange Cat Favicon">
+  <rect width="64" height="64" rx="16" fill="#fffdf8"/>
+  <g transform="translate(9, 14) scale(0.67)">
+    <!-- Ears -->
+    <path d="M 0 35 L 10 -5 L 35 20 Z" fill="#ffc466" stroke="#4f3d47" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M 68 35 L 58 -5 L 33 20 Z" fill="#4c444a" stroke="#4f3d47" stroke-width="6" stroke-linejoin="round"/>
+    
+    <!-- Inner Ears -->
+    <path d="M 12 25 L 15 5 L 26 18 Z" fill="#f46f9f" />
+    <path d="M 56 25 L 53 5 L 42 18 Z" fill="#f46f9f" />
 
-  <path d="M18 35 24 20 31 35Z" fill="#fffdf8" stroke="#72566a" stroke-width="2.8" stroke-linejoin="round"/>
-  <path d="M33 35 40 20 46 35Z" fill="#fffdf8" stroke="#72566a" stroke-width="2.8" stroke-linejoin="round"/>
-  <path d="M23 32 25 25 29 33Z" fill="#ffb3c7"/>
-  <path d="M35 33 39 25 41 32Z" fill="#ffb3c7"/>
+    <!-- Head -->
+    <ellipse cx="34" cy="38" rx="38" ry="26" fill="#fffdf8" stroke="#4f3d47" stroke-width="6" />
+    
+    <!-- Orange Patch -->
+    <path d="M 34 12 C 18 12 0 18 0 38 C 0 45 10 50 20 48 C 30 45 34 30 34 12 Z" fill="#ffc466" />
+    
+    <!-- Charcoal Patch -->
+    <path d="M 34 12 C 50 12 68 18 68 38 C 68 45 58 50 48 48 C 38 45 34 30 34 12 Z" fill="#4c444a" />
 
-  <ellipse cx="32" cy="40" rx="19" ry="14.5" fill="#fffdf8" stroke="#72566a" stroke-width="2.8"/>
-  <path d="M20 37c3 4 9 4 12 0M32 37c3 4 9 4 12 0" fill="none" stroke="#5f4a59" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="m29 42 6 0-3 4z" fill="#e8849c"/>
-  <path d="M32 47c-3 3-7 3-10 0M32 47c3 3 7 3 10 0" fill="none" stroke="#5f4a59" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M19 43h-7M45 43h7" fill="none" stroke="#5f4a59" stroke-width="2.3" stroke-linecap="round"/>
-  <path d="M16 47h7M41 47h7" fill="none" stroke="#ff9fbd" stroke-width="2.8" stroke-linecap="round"/>
-
-  <path d="M51 20 53 26l6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#ffcf69"/>
+    <!-- Happy Eyes -->
+    <path d="M 10 38 C 12 30 25 30 27 38 M 41 38 C 43 30 56 30 58 38" fill="none" stroke="#4f3d47" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Nose & Mouth -->
+    <path d="M 31 43 h 6 l -3 4 Z" fill="#f46f9f" />
+    <path d="M 34 47 C 28 52 24 48 24 45 M 34 47 C 40 52 44 48 44 45" fill="none" stroke="#4f3d47" stroke-width="3" stroke-linecap="round" />
+  </g>
 </svg>

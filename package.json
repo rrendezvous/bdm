@@ -1,7 +1,6 @@
 {
   "name": "birthday-cat-surprise",
   "description": "A cheerful cat-themed birthday surprise website for Ma, with playful cats, cake, and soft animations.",
-  "author": "Ma's Favorite Child",
   "private": true,
   "version": "0.1.0",
   "type": "module",
